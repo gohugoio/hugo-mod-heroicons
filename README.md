@@ -16,7 +16,7 @@ The icons gets mounted in `assets/svg/heroicons`.
 This means that they can be used like this in a Hugo template:
 
 ```html
-{{ $icon := resources.Get "svg/heroicons/outline-md/md-search.svg" }}
+{{ $icon := resources.Get "svg/heroicons/outline/search.svg" }}
 {{ $icon.Content | safeHTML }}
 ```
 
