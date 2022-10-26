@@ -1,6 +1,5 @@
 Heroicons is a set of free MIT-licensed high-quality SVG icons for you to use in your web projects.
-
-224 icons per style currently, more to come in the future. See https://github.com/refactoringui/heroicons
+Currently, this Hugo module mainly follows version v2.0.
 
 ## Use
 
@@ -16,8 +15,8 @@ The icons gets mounted in `assets/svg/heroicons`.
 This means that they can be used like this in a Hugo template:
 
 ```html
-{{ $icon := resources.Get "svg/heroicons/outline/search.svg" }}
+{{ $icon := resources.Get "svg/heroicons/24/outline/search.svg" }}
 {{ $icon.Content | safeHTML }}
 ```
 
-See https://github.com/refactoringui/heroicons/tree/master/src for a full list of icons.
+See https://github.com/tailwindlabs/heroicons/tree/master/src for a full list of icons and its folder structure.
