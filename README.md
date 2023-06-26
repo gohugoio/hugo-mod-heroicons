@@ -19,4 +19,4 @@ This means that they can be used like this in a Hugo template:
 {{ $icon.Content | safeHTML }}
 ```
 
-See https://github.com/tailwindlabs/heroicons/tree/master/src for a full list of icons and its folder structure.
+See https://github.com/tailwindlabs/heroicons/tree/master/optimized for a full list of icons and its folder structure.
