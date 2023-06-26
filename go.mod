@@ -2,4 +2,4 @@ module github.com/gohugoio/hugo-mod-heroicons
 
 go 1.13
 
-require github.com/tailwindlabs/heroicons v2.0.16+incompatible // indirect
+require github.com/tailwindlabs/heroicons v2.0.18+incompatible // indirect
